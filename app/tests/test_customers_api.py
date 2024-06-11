@@ -1,5 +1,4 @@
-from .fixtures import (specific_customer,  # pylint: disable=unused-import
-                       user_payload)
+from .fixtures import specific_customer, user_payload  # pylint: disable=unused-import
 
 
 def test_create_customer(test_client, user_payload, specific_customer):
