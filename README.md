@@ -45,8 +45,6 @@ Para gerar as migrações no banco de dados, execute o seguinte comando: `alembi
 Para facilitar e verificar se o retorno dos endpoints estavam tendo o comportamento esperado, criei algumas fixtures.
 Abaixo estão os exemplos utilizados para gerar payloads de clientes e retornar um cliente específico.
 
-### user_payload
-
 Objeto usado para gerar um payload de cliente:
 ```python
 CreateCustomer(name="Matheus", email="matheus@example.com", phone="21999999999")
