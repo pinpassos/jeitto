@@ -17,8 +17,10 @@ Para executar o projeto, você precisará ter o Docker e Docker Compose instalad
    `docker compose up`
 
 ## Migração do Banco de Dados
+Para aplicar as migrações no banco de dados e execute o seguinte comando: `alembic upgrade head`
 
-Para gerar as migrações no banco de dados, execute o seguinte comando: `alembic upgrade head`
+Caso não tenha a dependência instalada, basta criar uma virtualenv através do comando: `python3 -m virtualenv venv`, acessá-la com `source venv/bin/activate` e depois executar o comando `pip install alembic`
+para que dessa forma a dependência fique isolada apenas para o projeto em específico.
 
 ## Rotas
 
